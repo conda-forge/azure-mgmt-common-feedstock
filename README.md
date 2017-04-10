@@ -11,6 +11,18 @@ Summary: Microsoft Azure Resource Management Client Library for Python (Common)
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-common-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-common-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-mgmt-common-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-mgmt-common-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-mgmt-common-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-mgmt-common-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-common/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-common)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-common/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-common)
+
 Installing azure-mgmt-common
 ============================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `azure-mgmt-common` available on y
 ```
 conda search azure-mgmt-common --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-common-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-common-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-mgmt-common-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-mgmt-common-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-mgmt-common-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-mgmt-common-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-common/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-common)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-common/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-common)
 
 
 Updating azure-mgmt-common-feedstock
