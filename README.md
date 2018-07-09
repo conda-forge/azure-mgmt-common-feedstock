@@ -14,14 +14,15 @@ Summary: Microsoft Azure Resource Management Client Library for Python (Common)
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/azure-mgmt-common-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/azure-mgmt-common-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/azure-mgmt-common-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/azure-mgmt-common-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/azure-mgmt-common-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/azure-mgmt-common-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/azure-mgmt-common-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/azure-mgmt-common-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-common/badges/version.svg)](https://anaconda.org/conda-forge/azure-mgmt-common)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/azure-mgmt-common/badges/downloads.svg)](https://anaconda.org/conda-forge/azure-mgmt-common)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-azure--mgmt--common-green.svg)](https://anaconda.org/conda-forge/azure-mgmt-common) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/azure-mgmt-common.svg)](https://anaconda.org/conda-forge/azure-mgmt-common) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/azure-mgmt-common.svg)](https://anaconda.org/conda-forge/azure-mgmt-common) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/azure-mgmt-common.svg)](https://anaconda.org/conda-forge/azure-mgmt-common) |
 
 Installing azure-mgmt-common
 ============================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
