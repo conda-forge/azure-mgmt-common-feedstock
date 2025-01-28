@@ -6,29 +6,31 @@ package:
 
 source:
   fn: azure-mgmt-common{{ version }}.zip
-  url: https://pypi.io/packages/source/a/azure-mgmt-common/azure-mgmt-common-{{ version }}.zip
+  url: https://pypi.org/packages/source/a/azure-mgmt-common/azure-mgmt-common-{{ version }}.zip
   md5: f82f47f476964140576576734436ba4d
   
 build:
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
-  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 2
 
 requirements:
   host:
     - pip
-    - python
+    - python {{ python_min }}
     - setuptools
     - requests
     - azure-common
     - azure-mgmt-nspkg
   run:
-    - python
+    - python >={{ python_min }}
     - requests
     - azure-common
     - azure-mgmt-nspkg
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - azure
     - azure.mgmt
